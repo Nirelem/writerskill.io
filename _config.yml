@@ -1,0 +1,7 @@
+title: WriterSkill
+description: A student writing organization
+baseurl: ""
+url: ""
+
+markdown: kramdown
+theme: minima
