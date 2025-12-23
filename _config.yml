@@ -1,7 +1,7 @@
 title: WriterSkill
 description: A student writing organization
 baseurl: ""
-url: "https://writerskill.github.io"
+url: "https://nirelem.github.io"
 
 markdown: kramdown
 theme: minima
