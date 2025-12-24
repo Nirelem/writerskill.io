@@ -3,25 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 </head>
 <body>
 
-<header>
-  <h1><a href="/">{{ site.title }}</a></h1>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/works">Works</a>
-    <a href="/about">About</a>
-    <a href="/submissions">Submissions</a>
-  </nav>
+<header class="site-header">
+  <div class="header-inner">
+    <h1 class="site-title">
+      <a href="/">{{ site.title }}</a>
+    </h1>
+
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/works">Works</a>
+      <a href="/about">About</a>
+      <a href="/submissions">Submissions</a>
+    </nav>
+  </div>
 </header>
 
-<main>
+<main class="content">
   {{ content }}
 </main>
 
-<footer>
+<footer class="site-footer">
   <p>© {{ site.title }}</p>
 </footer>
 
