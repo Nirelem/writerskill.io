@@ -7,6 +7,8 @@ genre: Poetry
 featured: true
 ---
 
+<h2>{{ page.title }}</h2>
+
 <div class="work-header">
   <p class="work-meta">
     By {{ page.penname | default: page.author }} •
